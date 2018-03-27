@@ -1,0 +1,4 @@
+- systemd: state=stopped name=firewalld
+
+- name: Disable firewalld service
+  service: name=firewalld enabled=no

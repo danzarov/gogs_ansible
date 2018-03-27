@@ -1,0 +1,5 @@
+---
+- hosts: gogs
+  remote_user: root
+  roles:
+  - gogs
