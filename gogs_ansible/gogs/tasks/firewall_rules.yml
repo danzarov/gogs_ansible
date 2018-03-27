@@ -1,0 +1,12 @@
+- name:  Enable port 9001 on firewall (supervisor).
+  firewalld:
+    port: 9001/tcp
+    permanent: true
+    state: enabled
+
+- name:  Enable port 3000 on firewall (gogs).
+  firewalld:
+    port: 3000/tcp
+    permanent: true
+    state: enabled
+
