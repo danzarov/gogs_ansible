@@ -11,5 +11,4 @@ An ansible playbook to easily set up gogs on a CentOS 7 machine
 
 ## Config sample
 
-![image]
-https://user-images.githubusercontent.com/9399045/38002154-1c0843a2-3207-11e8-89dd-6a916c89439e.png
+![alt text](https://user-images.githubusercontent.com/9399045/38002154-1c0843a2-3207-11e8-89dd-6a916c89439e.png)
