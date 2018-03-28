@@ -2,7 +2,7 @@
 file=/tmp/supervisor.sock   ; the path to the socket file
 
 [inet_http_server]         ; inet (TCP) server disabled by default
-port=*:{{ supervisor_port }}
+port=127.0.0.1:{{ supervisor_port }}
 
 
 [supervisord]
