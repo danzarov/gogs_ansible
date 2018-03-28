@@ -6,7 +6,10 @@ An ansible playbook to easily set up gogs on a CentOS 7 machine
 * Place your server ip address inside the inventory file.
 
 ## Post install
-* Open your browser of choice and access http://<your-server-ip-addr>:3000
+* Open your browser of choice and access 
+```
+http://<your-server-ip-addr>:3000
+```
 * Configure gogs according to your needs
 
 ## Config sample
